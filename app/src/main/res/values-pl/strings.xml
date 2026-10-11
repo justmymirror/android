@@ -15,8 +15,6 @@
     <string name="add_tunnels_text">Dodaj z pliku lub archiwum ZIP</string>
     <string name="add_from_qr">Dodaj z kodu QR</string>
     <string name="tunnel_name">Nazwa tunelu</string>
-    <string name="exclude">Wyklucz</string>
-    <string name="include">Uwzględnij</string>
     <string name="config_changes_saved">Zmiany konfiguracji zostały zapisane.</string>
     <string name="public_key">Klucz publiczny</string>
     <string name="addresses">Adresy</string>
@@ -56,7 +54,6 @@
     <string name="delete_tunnel">Usuń tunel</string>
     <string name="delete_tunnel_message">Czy na pewno chcesz usunąć wybrane tunele?</string>
     <string name="yes">Tak</string>
-    <string name="all">Wszystkie</string>
     <string name="no_email_detected">Nie wykryto aplikacji pocztowej</string>
     <string name="no_browser_detected">Nie wykryto przeglądarki</string>
     <string name="open_issue">Otwórz zagadnienie</string>
@@ -345,8 +342,16 @@
     <string name="special_junk_packet">Specjalny pakiet śmieciowy</string>
     <!-- AmneziaWG 3.0 -->
     <string name="copy_from">Skopiuj z</string>
-    <string name="mode">Tryb</string>
-    <string name="app_selection">Wybór aplikacji</string>
+    <string name="split_tunneling">Dzielone tunelowanie</string>
+    <string name="split_tunneling_desc">Przekieruj określone aplikacje przez ten tunel lub wokół niego</string>
+    <string name="split_tunnel_include_label">Tunel</string>
+    <string name="split_tunnel_include_desc">Wybrane aplikacje będą tunelowane, podczas gdy wszystkie inne aplikacje będą go pomijać</string>
+    <string name="split_tunnel_exclude_label">Pomijaj</string>
+    <string name="split_tunnel_exclude_desc">Wybrane aplikacje będą pomijane, podczas gdy wszystkie inne aplikacje są tunelowane</string>
+    <string name="select_apps_to_include">Wybierz aplikacje do dołączenia</string>
+    <string name="select_apps_to_exclude">Wybierz aplikacje do wykluczenia</string>
+    <string name="split_mode">Tryb dzielony</string>
+    <string name="split_mode_desc">Czy wybrane aplikacje używają tego tunelu lub omijają go</string>
     <string name="import_url_description">Adres URL musi być bezpieczny i obsługiwać plik .conf.</string>
     <string name="export_unsupported">Eksport nie jest obsługiwany na tym urządzeniu</string>
     <string name="export_canceled">Eksport anulowano</string>
