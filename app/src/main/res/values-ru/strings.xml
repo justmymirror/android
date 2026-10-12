@@ -15,8 +15,6 @@
     <string name="add_tunnels_text">Добавить из файла или архива</string>
     <string name="add_from_qr">Добавить из QR-кода</string>
     <string name="tunnel_name">Имя туннеля</string>
-    <string name="exclude">Исключить</string>
-    <string name="include">Добавить</string>
     <string name="config_changes_saved">Изменения конфигурации сохранены.</string>
     <string name="public_key">Открытый ключ</string>
     <string name="addresses">Адреса</string>
@@ -56,7 +54,6 @@
     <string name="delete_tunnel">Удалить туннель</string>
     <string name="delete_tunnel_message">Удалить выбранные туннели?</string>
     <string name="yes">Да</string>
-    <string name="all">Все</string>
     <string name="no_email_detected">Приложение для отправки почты не найдено</string>
     <string name="no_browser_detected">Браузер не найден</string>
     <string name="open_issue">Сообщить о проблеме</string>
@@ -338,13 +335,23 @@
     <string name="donation_prompt_prefix">Благодарим вас за использование WG Tunnel! Если у вас есть возможность, пожалуйста, подумайте о</string>
     <string name="donation_prompt_link">поддержка проекта</string>
     <string name="donation_prompt_suffix">, чтобы сохранить его бесплатным и развивающимся.</string>
+    <string name="desktop_prompt_message">WG Tunnel теперь доступен на компьютере!</string>
+    <string name="desktop_app">Приложение для компьютера</string>
     <string name="cookie_packet_junk_size">Количество «мусора» в пакете cookie</string>
     <string name="transport_packet_junk_size">Размер «мусора» в транспортном пакете</string>
     <string name="special_junk_packet">Специальный «мусорный» пакет</string>
     <!-- AmneziaWG 3.0 -->
     <string name="copy_from">Копировать из…</string>
-    <string name="mode">Режим</string>
-    <string name="app_selection">Выбор приложения</string>
+    <string name="split_tunneling">Раздельное туннелирование</string>
+    <string name="split_tunneling_desc">Перенаправление трафика определённых приложений через туннель или в обход него</string>
+    <string name="split_tunnel_include_label">Туннель</string>
+    <string name="split_tunnel_include_desc">Выбранные приложения будут перенаправлены в туннель, а все остальные не будут перенаправляться</string>
+    <string name="split_tunnel_exclude_label">Обход</string>
+    <string name="split_tunnel_exclude_desc">Выбранные приложения не будут перенаправлены в туннель, а все остальные будут перенаправляться</string>
+    <string name="select_apps_to_include">Выбор включаемых приложений</string>
+    <string name="select_apps_to_exclude">Выбор исключаемых приложений</string>
+    <string name="split_mode">Режим разделения</string>
+    <string name="split_mode_desc">Выбранные приложения используют туннель или обходят его</string>
     <string name="import_url_description">URL должен быть безопасным и ссылаться на файл .conf.</string>
     <string name="export_unsupported">Экспорт не поддерживается на данном устройстве</string>
     <string name="export_canceled">Экспорт отменён</string>
